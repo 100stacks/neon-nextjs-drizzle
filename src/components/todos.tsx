@@ -55,7 +55,7 @@ const Todos = ({ todos }: Props) => {
                         todo={todo}
                         changeTodoTask={changeTodoTask}
                         toggleIsTodoDone={toggleIsTodoDone}
-                        deleteTodoItem={deleteTodo}
+                        deleteTodoItem={deleteTodoItem}
                     />
                 ))}
             </div>
